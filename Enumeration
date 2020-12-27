@@ -1,0 +1,9 @@
+/*Illustrate the Enumeration with example*/
+import java.io.*;
+enum Color{
+   RED,BLUE,GREEN;
+}
+class EnumExample{
+    Color c=Color.RED;
+    System.out.println("Color is"+c);
+}
